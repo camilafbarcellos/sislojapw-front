@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom';
-import logo from '/img/logo-lumi.png';
+import logo from './img/logo-lumi.png'
 
 const Menu = () => (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
