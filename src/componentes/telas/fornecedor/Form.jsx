@@ -39,14 +39,14 @@ function Form() {
                         <div className="modal-body">
                             <Alerta alerta={alerta} />
                             <div className="form-group">
-                                <label htmlFor="txtCodido" className="form-label">
+                                <label htmlFor="txtCodigo" className="form-label">
                                     Código
                                 </label>
                                 <input
                                     type="text"
                                     readOnly
                                     className="form-control"
-                                    id="txtCodido"
+                                    id="txtCodigo"
                                     name="codigo"
                                     value={objeto.codigo}
                                     onChange={handleChange}
