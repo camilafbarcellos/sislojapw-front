@@ -60,6 +60,7 @@ function Form() {
                                     type="text"
                                     className="form-control"
                                     id="txtNome"
+                                    maxLength="40"
                                     name="nome"
                                     value={objeto.nome}
                                     onChange={handleChange}
@@ -80,6 +81,7 @@ function Form() {
                                     type="text"
                                     className="form-control"
                                     id="txtCnpj"
+                                    maxLength="14"
                                     name="cnpj"
                                     value={objeto.cnpj}
                                     onChange={handleChange}
@@ -100,7 +102,7 @@ function Form() {
                                     type="text"
                                     className="form-control"
                                     id="txtSetor"
-                                    maxLength="4"
+                                    maxLength="35"
                                     name="setor"
                                     value={objeto.setor}
                                     onChange={handleChange}

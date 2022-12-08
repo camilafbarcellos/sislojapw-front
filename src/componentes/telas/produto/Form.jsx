@@ -80,6 +80,7 @@ function Form() {
                                     type="text"
                                     className="form-control"
                                     id="txtNome"
+                                    maxLength="100"
                                     name="nome"
                                     value={objeto.nome}
                                     onChange={handleChange}
