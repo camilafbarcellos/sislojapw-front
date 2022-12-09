@@ -52,7 +52,7 @@ function Tabela() {
                                 <td>{objeto.codigo}</td>
                                 <td>{objeto.estoque}</td>
                                 <td>{objeto.nome}</td>
-                                <td>{objeto.valor}</td>
+                                <td>R$ {objeto.valor}</td>
                                 <td>{objeto.nomefornecedor}</td>
                             </tr>
                         ))}
